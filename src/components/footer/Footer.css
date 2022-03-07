@@ -1,0 +1,8 @@
+footer {
+    min-height: 350px;
+    background-color: #333;
+    color: #eee;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}

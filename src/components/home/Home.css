@@ -1,0 +1,11 @@
+section {
+    min-height: 350px;
+}
+
+section:nth-child(odd) {
+    background-color: #eee;
+}
+
+section:nth-child(even) {
+    background-color: #666;
+}
