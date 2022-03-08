@@ -2,13 +2,27 @@ section {
     min-height: 350px;
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1rem;
+    padding: 2rem 0;
+}
+
+section h2 {
+    text-align: center;
 }
 
 section:nth-child(odd) {
     background-color: #eee;
+    color: #444;
+}
+
+section:nth-child(odd) h2 {
+    color: #333
 }
 
 section:nth-child(even) {
-    background-color: #666;
+    background-color: #333;
+    color: #eee;
+}
+
+section:nth-child(even) h2 {
+    color: #fff;
 }

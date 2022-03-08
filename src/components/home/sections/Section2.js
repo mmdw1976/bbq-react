@@ -14,6 +14,7 @@ const Section2 = () => {
             voorbereid. Na dat je deze ribes hebt geproefd dan wil je nooit meer
             anders.
           </p>
+          <button className='section-btn box-shadow'>Ga Naar Recept</button>
         </div>
       </div>
     );

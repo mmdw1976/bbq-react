@@ -16,6 +16,7 @@ const Section4 = () => {
             te injecteren met marinade wat een eigen flavour geeft aan het stuk
             vlees.
           </p>
+          <button className='section-btn box-shadow'>Ga Naar Recept</button>
         </div>
       </div>
     );

@@ -14,6 +14,24 @@
     align-content: center;
 }
 
+.section-btn {
+    display: inline-block;
+    width: 150px;
+    border: none;
+    border-radius: 7px;
+    padding: .8rem 1rem;
+    background-color: #000;
+    color: #eee;
+    text-align: center;
+    margin: 1rem auto;
+    transition: 300ms;
+}
+
+.section-btn:hover {
+    color: #ff9900;
+    transform: scale(.99);
+}
+
 .section-container__picture {
     display: grid;
     grid-template-columns: 1fr;
@@ -50,7 +68,7 @@
 }
 
 .section2-picture {
-    background: url('../../images/smokey-ribs.jpg') no-repeat center /cover;
+    background: url('../../images/spare-rip-plate.jpg') no-repeat center /cover;
 }
 
 .section3-pic1 {
