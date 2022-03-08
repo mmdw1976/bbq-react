@@ -1,0 +1,74 @@
+.section-container {
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    grid-gap: 1rem;
+}
+
+.section-container__content {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
+
+.section-container__picture {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+}
+
+.section-container__pictures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: .5rem;
+    padding: 1rem;
+}
+
+.tumb-pic {
+    aspect-ratio: 16/11;
+    border-radius: 7px;
+}
+
+.section1-pic1 {
+    background: url('../../images/pulled-pork.jpg') no-repeat center /cover;
+}
+
+.section1-pic2 {
+    background: url('../../images/short-ribs2.jpg') no-repeat center /cover;
+
+}
+
+.section1-pic3 {
+    background: url('../../images/smokey-ribs.jpg') no-repeat center /cover;
+}
+
+.section1-pic4 {
+    background: url('../../images/beer-can-chicken.jpg') no-repeat center /cover;
+}
+
+.section2-picture {
+    background: url('../../images/smokey-ribs.jpg') no-repeat center /cover;
+}
+
+.section3-pic1 {
+    background: url('../../images/bbq-nature.jpg') no-repeat center /cover;
+}
+
+.section3-pic2 {
+    background: url('../../images/smoker-bb1.jpg') no-repeat center /cover;
+}
+
+.section3-pic3 {
+    background: url('../../images/basterd.jpg') no-repeat center /cover;
+}
+
+.section3-pic4 {
+    background: url('../../images/Weber-Master-Touch.jpg') no-repeat center /cover;
+}
+
+.section4-picture {
+    background: url('../../images/pulled-pork.jpg') no-repeat center /cover;
+}
