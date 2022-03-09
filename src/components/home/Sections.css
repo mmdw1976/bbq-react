@@ -35,7 +35,7 @@
 .section-container__picture {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1rem;
+    padding: 1rem 0;
     justify-items: center;
 }
 
@@ -43,7 +43,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: .5rem;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .tumb-pic {

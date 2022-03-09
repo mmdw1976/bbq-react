@@ -1,8 +1,19 @@
 footer {
-    min-height: 100px;
-    background-color: #222;
-    color: #eee;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
+  min-height: 100px;
+  background-color: #222;
+  color: #eee;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
