@@ -4,7 +4,7 @@ const Section4 = () => {
     return (
       <div className='section-container'>
         <div className='section-container__picture'>
-          <div className='section4-picture tumb-pic shadow-box'></div>
+          <div className='section4-picture picture-big tumb-pic shadow-box'></div>
         </div>
         <div className='section-container__content'>
           <h2>Smokey Pulled Pork</h2>

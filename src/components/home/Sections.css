@@ -1,5 +1,5 @@
 .section-container {
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -36,6 +36,7 @@
     display: grid;
     grid-template-columns: 1fr;
     padding: 1rem;
+    justify-items: center;
 }
 
 .section-container__pictures {
@@ -65,6 +66,11 @@
 
 .section1-pic4 {
     background: url('../../images/beer-can-chicken.jpg') no-repeat center /cover;
+}
+
+.picture-big {
+    min-height: 350px;
+    max-height: 400px;
 }
 
 .section2-picture {

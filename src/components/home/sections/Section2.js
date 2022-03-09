@@ -4,7 +4,7 @@ const Section2 = () => {
     return (
       <div className='section-container'>
         <div className='section-container__picture'>
-          <div className='section2-picture tumb-pic shadow-box'></div>
+          <div className='section2-picture picture-big tumb-pic shadow-box'></div>
         </div>
         <div className='section-container__content'>
           <h2>Smokey Spareribs 3-2-1 methode</h2>
