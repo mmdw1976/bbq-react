@@ -11,10 +11,13 @@ h4,
 h5,
 h6 {
     padding: .7rem 0;
+    font-family: 'Rosario', sans-serif;
+    font-weight: normal;
 }
 
 p {
     padding: .5rem 0;
+    line-height: 1.6;
 }
 
 .box-shadow {
