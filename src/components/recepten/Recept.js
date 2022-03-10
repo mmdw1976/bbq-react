@@ -9,7 +9,7 @@ const Recept = ({ recept }) => {
         </div>
         <div className='recept-card__content'>
           <h2>{recept.title}</h2>
-          <button className='section-btn'>Ga Naar recept</button>
+          <button className='section-btn box-shadow'>Ga Naar recept</button>
         </div>
       </div>
     );
