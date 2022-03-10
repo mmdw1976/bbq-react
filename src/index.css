@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rosario', sans-serif;
+    font-weight: normal;
 }
 
 h1,
@@ -11,13 +13,12 @@ h4,
 h5,
 h6 {
     padding: .7rem 0;
-    font-family: 'Rosario', sans-serif;
-    font-weight: normal;
 }
 
 p {
     padding: .5rem 0;
     line-height: 1.6;
+    font-size: .8rem;
 }
 
 .box-shadow {

@@ -1,9 +1,20 @@
 import React from 'react'
+import Recept from './Recept';
 
-const Recepten = () => {
+// import recepten style
+import './Recepten.css';
+
+const Recepten = ({ recepten }) => {
+    console.log(recepten)
     return ( 
         <div>
-            <h1>Recepten</h1>
+            <div className="recept-container">
+                {recepten.map(recept => {
+                    return (
+                        <Recept recept={ recept } key={ recept.id }/>
+                    )
+                })}
+            </div>
         </div>
      );
 }

@@ -1,0 +1,32 @@
+.recept-container {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    grid-gap: 1rem;
+    padding: 2rem 0;
+}
+
+.recept-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+
+.recept-card__img img{
+    width: 100%;
+    aspect-ratio: 16/11;
+    border-radius: 7px;
+}
+
+.recept-card__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.recept-card__content h2 {
+    text-align: center;
+}
